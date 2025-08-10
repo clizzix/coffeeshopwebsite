@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header>
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
@@ -13,16 +15,15 @@
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
+    </header>
     <main>
         <section>
             <h1>Contact us</h1>
             <div>
                 <p>If you have any questions or feedback, feel free to reach out to us!</p>
-                <ul>
+                <ul id="contact-info">
                     <li><a href="mailto:info@barista.com">info@barista.com</a></li>
                     <li><a href="tel:+1234567890">+1 234 567 890</a></li>
-                    <li><a href="https://www.instagram.com/bombasticbarista">Instagram</a></li>
-                    <li><a href="https://www.facebook.com/bombasticbarista">Facebook</a></li>
                 </ul> 
             </div>
         </section>
@@ -34,8 +35,8 @@
                 <fieldset>
                     <legend>Send us a message</legend>
                     <form action="#" method="post">
-                    <label for="email">User:</label>
-                    <input type="text" id="user" name="user" required>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
                     <label for="email">Email:</label>
                     <input type="email" id="email" name="email" required>
                     <label for="message">Message:</label>
