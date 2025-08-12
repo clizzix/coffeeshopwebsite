@@ -47,6 +47,10 @@ section h1 {
     margin-bottom: 1rem;
     text-align: center;
 }
+section p {
+    margin-bottom: 2rem;
+    text-align: center;
+}
 section div img {
     width: 100%;
     height: auto;
@@ -132,6 +136,12 @@ form button {
 }
 form button:hover {
     background-color: rgb(243, 155, 4);
+}
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #7a4d0b;
+    color: #fff;
 }
 @media screen and (min-width:768px) {
     header {
